@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin: 0px;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+/* .navbar{
+    border: 2px solid blueviolet;
+    height: 80px;
+} */
+
+
+
+#heading{
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+    /* border: 2px solid red; */
+    font-size: large;
+    height: 10%;
+    font-weight: bolder;
+}
+
+.navbar ul{
+    margin: 0px;
+}
+
+
+/* .navbar ul{
+     display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
+    width: 100%;
+     border: 2px solid black;
+
+} */
+.navbar li{
+    
+    float: right !important;
+    list-style: none;
+    /* border: 2px solid red; */
+    padding: 23px 30px;
+    font-size:x-large;
+    /* font-weight: bold; */
+    font-family: monospace;
+}
+
+.navbar li:hover{
+   
+    background-color: #e1e1e1;
+    cursor: pointer;
+    
+}
+
+.navbar li a{
+    height: 10%;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+
+}
+
+.img1{
+    width: 100%;
+    height:fit-content;
+}
+
+.foodOrder{
+    margin-top: 10%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    /* border: 2px solid rebeccapurple; */
+    margin-bottom: 5%;
+}
+
+.foodOrder h1{
+    font-family: 'Dancing Script', cursive;;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+#item1
+{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+#item1 p{
+    /* border: 2px solid red; */
+    line-height: 50px;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    font-family: cursive;
+    color: gray;
+}
+
+/* #item2{
+    border: 5px solid blue;
+    
+    
+} */
+
+#img9{
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 84%;
+    float: right;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* border: 2px solid rebeccapurple; */
+    height: 70vh;
+    justify-content: center;
+}
+
+.item img{
+    width: 60%;
+    height: 80%;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.products{
+    overflow:visible;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* border: 2px solid cyan; */
+
+}
+
+.products h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.i{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-family: monospace, cursive;
+    transition: all .2s ease-in-out;
+}
+
+.i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.contact{
+    background-color: #b4b4b4;
+    /* background: url('img16.jpeg') no-repeat center center/cover; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 2px solid black; */
+    margin-top: 10%;
+}
+
+/* form{
+
+} */
+
+.contact_item{
+    /* margin: 25px; */
+    /* border-radius: 50px; */
+    display: block;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: white;
+    /* background-color: gray; */
+}
+
+input[type='text']{
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+    width: 60%
+}
+
+textarea{
+    width: 60%;
+    margin: 5px;
+}
+
+input[type='button']{
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+    padding: 15px 40px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+input[type='button']:hover{
+    cursor: pointer;
+    background-color: rgb(66, 66, 66);
+    /* border: 2px solid black; */
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+
+hr{
+    border: 1px dashed gray;
+    justify-self: center;
+    width: 75%;
+    overflow: hidden;
+}
